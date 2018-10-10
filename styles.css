@@ -1,0 +1,180 @@
+header {
+    background-color: #466995;
+    width: 100%;
+    text-align: center;
+}
+
+/* Remove this after grid setup properly
+body, main, div, h1, h2, h3, h4, h5, p, header, footer {
+  border: 1px solid black
+}
+/* Remove this after grid setup properly */
+
+body {
+  background-color: rgb(247, 225, 184);
+  font-family: 'Lato', sans-serif;
+  padding: 100px;
+}
+
+div {
+  margin: 25px;
+}
+
+#me {
+  height: 300px;
+}
+
+
+/*
+tr, td {
+  border: 1px solid black;
+}
+*/
+
+h1 {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #466995;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 700;
+  }
+
+h4 {
+  color: #466995;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase
+}
+
+    
+
+p {
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer {
+  color: #FFF;
+  text-align: left;
+  height: 100px;
+}
+
+#intro {
+  display: grid;
+  height: 300px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+}
+
+.a {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+.b {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  padding: 20px;
+  align-self: center;
+}
+
+table {
+  font-size: 16px;
+  width: 100%;
+}
+
+#skills table {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+#training table {
+  font-family: Lato, sans-serif;
+}
+
+.right {
+  text-align: right;
+}
+
+.indent {
+  padding: 0 15px;
+}
+
+.timeline {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.role {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+}
+
+/*
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+li {
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+
+/*
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+}
+
+*/
