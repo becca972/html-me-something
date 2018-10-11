@@ -66,7 +66,12 @@ h4 {
   text-transform: uppercase
 }
 
-    
+article {
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
 
 p {
   color: #333;
@@ -76,7 +81,7 @@ p {
 }
 
 footer {
-  color: #FFF;
+  color: rgb(125, 143, 180);
   text-align: left;
   height: 100px;
 }
@@ -138,6 +143,14 @@ table {
   font-weight: 700;
 }
 
+#highlights {
+  margin: 100px 25px 25px 25px;
+}
+
+#personal {
+  margin: 100px 25px;
+}
+
 /*
 
 ul {
@@ -155,26 +168,3 @@ li {
   
 
 /*
-.welcome {
-  background-color: #DBE9EE;
-  box-sizing: border-box;
-  padding: 40px;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  top: 50px;
-}
-
-.question {
-  text-align: center;
-  position: relative;
-  top: 40px;
-}
-
-.answer {
-  border: 1px solid #466995;
-  margin: 20px;
-  display: inline-block;
-}
-
-*/
